@@ -1,6 +1,6 @@
 
 
-use std::process::{Command};
+use std::{process::{Command}, result};
 fn main() {
 let result = Command::new("git").args(["pull"]).output();
 println!("{:?}", result);
@@ -8,5 +8,4 @@ let result = Command::new("git").args(["add","."]).output();
 println!("{:?}", result);
 let result=Command::new("git").args(["commit","-m\"Updated my stuff\""]).output();
 println!("{:?}", result);
-    
 }
