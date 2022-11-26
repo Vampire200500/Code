@@ -1,3 +1,12 @@
+
+
+use std::process::{Command};
 fn main() {
-    println!("hello world")
+let result = Command::new("git").args(["pull"]).output();
+println!("{:?}", result);
+let result = Command::new("git").args(["add","."]).output();
+println!("{:?}", result);
+let result=Command::new("git").args(["commit","-m\"Updated my stuff\""]).output();
+println!("{:?}", result);
+    
 }
