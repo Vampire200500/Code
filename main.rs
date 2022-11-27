@@ -10,5 +10,6 @@ let result=Command::new("git").args(["commit","-m\"Updated my stuff\""]).output(
 println!("{:?}", result);
 let result=Command::new("git").args(["push"]).output();
 println!("{:?}", result);
-let result=Command::new("touch").args(["test.rs"]).output();
+let cmd=Command::new("touch").args(["test.rs"]).output();
+println!("{:?}",cmd)
 }
