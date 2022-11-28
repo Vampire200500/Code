@@ -9,7 +9,7 @@ let result=Command::new("git").args(["commit","-m\"Updated my stuff\""]).output(
 println!("{:?}", result);
 let result=Command::new("git").args(["push"]).output();
 println!("{:?}", result);
-let result=Command::new("start").args(["chrome.exe"]).output();
+let result=Command::new("start chrome").output();
 println!("{:?}", result);
 
 
