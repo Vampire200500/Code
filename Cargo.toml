@@ -10,3 +10,9 @@ edition = "2021"
 [[bin]]
 name = "code"
 path = "main.rs"
+
+[profile.release]
+strip = true
+opt-level = "s"
+lto = true
+codegen-units = 1
