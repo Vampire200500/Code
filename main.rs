@@ -1,4 +1,5 @@
 
+
 use std::process::Command;
 fn main() {
 let result = Command::new("git").args(["pull"]).output();
