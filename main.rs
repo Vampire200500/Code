@@ -10,6 +10,6 @@ let result=Command::new("git").args(["commit","-m\"Updated my stuff\""]).output(
 println!("{:?}", result);
 let result=Command::new("git").args(["push"]).output();
 println!("{:?}", result);
-let result=Command::new("fsutil").args(["createnew","README.md","0"]).output();
+let result=Command::new("fsutil").args(["file","createnew","README.md","0"]).output();
 println!("{:?}", result);
 }
