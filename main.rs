@@ -16,6 +16,6 @@ println!("{:?}", result);}
 
 
 fn createfile(){
-    let result=Command::new("fsutil").args(["file","createnew","README.md","0"]).output();
+    let result=Command::new("fsutil").args(["file","createnew","DOCKERFILE","0"]).output();
 println!("{:?}", result);
 }
