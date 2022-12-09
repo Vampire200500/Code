@@ -2,7 +2,7 @@
 
 use std::process::Command;
 fn main() {
-createfile();
+//createfile();
 let result = Command::new("git").args(["pull"]).output();
 println!("{:?}", result);
 let result = Command::new("git").args(["add","."]).output();
@@ -15,7 +15,7 @@ println!("{:?}", result);}
 
 
 
-fn createfile(){
+/*fn createfile(){
     let result=Command::new("fsutil").args(["file","createnew","examplefile.txt","0"]).output();
 println!("{:?}", result);
-}
+}*/
