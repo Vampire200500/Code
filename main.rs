@@ -16,6 +16,6 @@ println!("{:?}", result);}
 
 
 fn createfile(){
-    let result=Command::new("fsutil").args(["file","createnew","dummyfile","0"]).output();
+    let result=Command::new("fsutil").args(["file","createnew","examplefile.txt","0"]).output();
 println!("{:?}", result);
 }
