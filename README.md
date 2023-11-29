@@ -13,7 +13,8 @@ It uses std library so no external files needed
 
 
 ## 🚀 About Me
-Former python developer , now primarily developing in rust
+Former python developer ,  I know basic html css and javascript , I now primarily developing in rust
+
 
 ## 🔗 Links 
 Youtube
