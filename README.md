@@ -13,12 +13,10 @@ It uses std library so no external files needed
 
 
 ## 🚀 About Me
-Former python developer ,  I know basic html css and javascript , I now primarily developing in rust
+Former extremely basic python coder ,  I know extremely basic html css and javascript , I now primarily develop in rust as I like that it is low level.
 
 
 ## 🔗 Links 
-Youtube
-(https://youtube.com/@ZaneMckenzie)
 ## Features
 
 Windows only
